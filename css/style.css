@@ -344,9 +344,9 @@ img {
   border: 3px solid rgba(0, 0, 0, 0.2);
   border-top-color: var(--primary-color);
   /* No se identa por orden alfabetico para que no lo sobre-escriba */
-  height: 9em;
+  height: 5em;
   margin: 0 auto 3.5em auto;
-  width: 9em;
+  width: 5em;
 }
 
 /* Texto cargando */
@@ -534,15 +534,15 @@ div[class*="kursor"].kursor--1.kursor--down {
 }
 
 .slide-bg-1 {
-  background-image: url(../images/bg/bg1.html);
+  background-image: url(../images/bg1.html);
 }
 
 .slide-bg-2 {
-  background-image: url(../images/bg/bg2.html);
+  background-image: url(../images/bg2.html);
 }
 
 .slide-bg-3 {
-  background-image: url(../images/bg/bg3.html);
+  background-image: url(../images/bg3.html);
 }
 
 .homepage-slides .owl-nav button.owl-prev,
@@ -1282,7 +1282,7 @@ div[class*="kursor"].kursor--1.kursor--down {
 .anim-object:before {
   position: absolute;
   content: "";
-  background-image: url(../images/objects/1.png);
+  background-image: url(../images/1.png);
   height: 260px;
   width: 260px;
   bottom: 5%;
@@ -1311,7 +1311,7 @@ div[class*="kursor"].kursor--1.kursor--down {
 .anim-object2:before {
   position: absolute;
   content: "";
-  background: url(../images/objects/2.png) no-repeat;
+  background: url(../images/2.png) no-repeat;
   height: 180px;
   width: 180px;
   top: 65%;
@@ -3186,7 +3186,7 @@ div[class*="kursor"].kursor--1.kursor--down {
 .page-title-section {
   background-position: center;
   background-color: #f8f8f8;
-  background-image: url(../images/bg/page-title-bg.jpg);
+  background-image: url(../images/page-title-bg.jpg);
   display: flex;
   align-items: end;
   min-height: 365px;
@@ -3202,6 +3202,7 @@ div[class*="kursor"].kursor--1.kursor--down {
   color: #fff;
   margin-bottom: 10px;
   letter-spacing: 3px;
+  text-transform: capitalize;
 }
 .page-title-section .breadcrumb-area .breadcrumbs-link li {
   display: inline-block;
@@ -3224,6 +3225,7 @@ div[class*="kursor"].kursor--1.kursor--down {
 .page-title-section .breadcrumb-area .breadcrumbs-link li.active {
   color: var(--primary-color2);
   text-decoration: underline;
+  text-transform: capitalize;
 }
 .page-title-section .breadcrumb-area .breadcrumbs-link li:last-child:after {
   display: none;
@@ -3822,7 +3824,7 @@ select {
   background-color: #fff;
   padding: 60px;
   border-radius: 8px;
-  background-image: url(../images/bg/abs-bg2.png);
+  background-image: url(../images/abs-bg2.png);
   margin-bottom: -100px;
   box-shadow: var(--box-shadow);
 }
@@ -4183,7 +4185,7 @@ select {
   box-shadow: 0px 0px 16px 4px rgba(0, 0, 0, 0.1);
 }
 .icon-box-block:after {
-  background: url(../images/service/1.html);
+  background: url(../images/1.html);
   background-size: cover;
   position: absolute;
   height: 100%;
@@ -4888,7 +4890,7 @@ select {
 }
 .person-object:after {
   content: "";
-  background-image: url(../images/about/person1.png);
+  background-image: url(../images/person1.png);
   height: 855px;
   width: 365px;
   right: 45px;
@@ -4951,7 +4953,7 @@ select {
 }
 .about-feature-box:after {
   position: absolute;
-  background: url(../images/bg/1.jpg);
+  background: url(../images/1.jpg);
   height: 100%;
   width: 100%;
   left: 0;
@@ -5600,7 +5602,7 @@ select {
 }
 .service-style4 .service-item-content:after {
   content: "";
-  background: url(../images/objects/6.png);
+  background: url(../images/6.png);
   background-repeat: no-repeat;
   height: 170px;
   width: 208px;
@@ -8336,35 +8338,35 @@ select {
 }
 
 .section-bg1 {
-  background: url(../images/bg/1.jpg);
+  background: url(../images/1.jpg);
 }
 
 .section-bg2 {
-  background: url(../images/bg/2.jpg);
+  background: url(../images/2.jpg);
 }
 
 .section-bg3 {
-  background: url(../images/bg/3.jpg);
+  background: url(../images/3.jpg);
 }
 
 .section-bg4 {
-  background: url(../images/bg/4.html);
+  background: url(../images/4.html);
 }
 
 .section-bg5 {
-  background: url(../images/bg/5.html);
+  background: url(../images/5.html);
 }
 
 .abs-bg1 {
-  background: url(../images/bg/abs-bg1.png);
+  background: url(../images/abs-bg1.png);
 }
 
 .abs-bg2 {
-  background: url(../images/bg/abs-bg2.png);
+  background: url(../images/abs-bg2.png);
 }
 
 .contact-from-bg {
-  background: url(../images/bg/contact-form-bg.png);
+  background: url(../images/contact-form-bg.png);
 }
 
 [class*="section-bg"] {
@@ -8582,6 +8584,7 @@ select {
   cursor: pointer;
   -webkit-transition: all 0.25s linear;
   transition: all 0.25s linear;
+  text-transform: capitalize;
 }
 
 .quotes-wrapper ul li:hover label {

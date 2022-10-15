@@ -121,11 +121,11 @@
         <div class="row">
           <div class="col-xl-12">
             <div class="breadcrumb-area">
-              <h2 class="page-title">AC & Heating</h2>
+              <h2 class="page-title">home security</h2>
               <ul class="breadcrumbs-link">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="page-services.html">Services</a></li>
-                <li class="active">AC & Heating</li>
+                <li class="active">home security</li>
               </ul>
             </div>
           </div>
@@ -151,17 +151,35 @@
                 <div class="quotes-wrapper">
                   <div id="svg_wrap"></div>
                   <section class="steps_wrapper">
-                    <p>What's the nature of your project?</p>
+                    <p>What do you need help with?</p>
+                    <select class="custom-select-categories">
+                      <option disabled="disabled" selected="selected" value=""
+                        >Type of Service</option
+                      >
+                      <option value="Audi">Replacement of a system</option>
+                      <option value="BMW"> Maintenance and Update</option>
+                    </select>
 
+                    <select class="custom-select-categories mt-3">
+                      <option disabled="disabled" selected="selected" value=""
+                        >Your Needs</option
+                      >
+                      <option value="Audi">Complete residential security with remote monitoring</option>
+                      <option value="BMW">Security Cameras</option>
+                    </select> 
+                  </section>
+
+                  <section class="steps_wrapper">
+                    <p>How soon do you want to start?</p>
                     <ul>
                       <li>
                         <input
                           type="radio"
-                          id="f-option"
+                          id="Immediately-option"
                           name="selector"
                           class="form-control"
                         />
-                        <label for="f-option">Install New System</label>
+                        <label for="Immediately-option">Immediately</label>
 
                         <div class="check"></div>
                       </li>
@@ -169,37 +187,35 @@
                       <li>
                         <input
                           type="radio"
-                          id="s-option"
+                          id="months-option"
                           name="selector"
                           class="form-control"
                         />
-                        <label for="s-option">Service Repair</label>
+                        <label for="months-option">Within 6 months
+                        </label>
 
                         <div class="check">
                           <div class="inside"></div>
                         </div>
                       </li>
+
+                      <li>
+                        <input
+                          type="radio"
+                          id="sure-option"
+                          name="selector"
+                          class="form-control"
+                        />
+                        <label for="sure-option">Not sure
+                        </label>
+
+                        <div class="check">
+                          <div class="inside"></div>
+                        </div>
+                      </li> 
                     </ul>
                   </section>
-
-                  <section class="steps_wrapper">
-                    <p>What type of system are you interested in?</p>
-                    <select class="custom-select-categories">
-                      <option disabled="disabled" selected="selected" value=""
-                        >Air Type</option
-                      >
-                      <option value="Audi">Cooling</option>
-                      <option value="BMW">Heatng</option>
-                    </select>
-
-                    <select class="custom-select-categories mt-3">
-                      <option disabled="disabled" selected="selected" value=""
-                        >System Type</option
-                      >
-                      <option value="Audi">Gas Boiler</option>
-                      <option value="BMW">Ductless (mini-split) A/C</option>
-                    </select>
-                  </section>
+ 
 
                   <section class="steps_wrapper">
                     <p>What's Your Full Name?</p>
